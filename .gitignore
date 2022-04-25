@@ -1,1 +1,14 @@
-.idea/
+# editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dependency directory
+node_modules/
+
+# Ignore built ts files
+dist/**/*
+package-lock.json
